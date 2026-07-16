@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+  background: #0a0e1a;
+  color: #e2e8f0;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.glow-green { box-shadow: 0 0 12px rgba(0, 200, 83, 0.3); }
+.glow-red { box-shadow: 0 0 12px rgba(255, 82, 82, 0.3); }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #1a1f2e; }
+::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
